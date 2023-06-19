@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <div>
+      <h3>역 이름을 입력하세요</h3>
+      <form action="input" method="post">
+          역 이름 : <input type = "text" name ="station">
+          <button tyoe = "input">제출</button>
+      </form>
+  </div>
+
+
+  <div>
+    <p th:text="${data}"></p>
+  </div>
+</body>
+</html>
